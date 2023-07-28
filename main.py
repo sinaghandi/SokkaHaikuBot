@@ -9,9 +9,10 @@ from config import BOT_TOKEN
 
 bot = commands.Bot(command_prefix="!")
 
+
 @bot.command()
-async def hello(context)
+async def hello(context):
     await context.reply("Hello!")
 
-bot.run(BOT_TOKEN)
 
+bot.run(BOT_TOKEN)
